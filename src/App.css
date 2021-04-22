@@ -38,5 +38,32 @@
   }
 }
 /* END OF REACT ORG CODE */
+/* START OF DESIGN CODE 4/21/21 */
 
+.Header-parent {
+  background-color: aqua;
+  display: flexbox;
+  flex-direction: row;
+  height: 50em;
+  width: 100%;
+  border: 3px solid rgb(20, 64, 160);
+}
 
+.Header-child {
+  background-color: springgreen;
+  display: flex;
+  justify-content: flex-start;
+  height: 6em;
+  width: 3em;
+  border: 2px solid teal ;
+}
+
+.Landing-page-footer {
+  background-color: rgb(223, 220, 11);
+  display: flex;
+  height: 20vh;
+  width: 100%;
+  border: 5px dashed orangered  ;
+}
+
+/* END OF DESIGN CODE 4/21/21 */
