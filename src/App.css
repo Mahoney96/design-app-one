@@ -167,7 +167,7 @@
   border:  3px solid  rgb(61, 195, 61)
 }
 
-.container-Grid {
+.container-grid {
 
   display: grid;
   grid-template-columns: 300px 300px 300px 300px;

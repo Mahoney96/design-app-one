@@ -11,7 +11,7 @@ class TakeTwoGrid extends Component {
 
         return(
 
-            <div className="Grid-layout">
+            <div className="container-grid">
 
                 <div className="item-a"> Header Section.</div>
                 
