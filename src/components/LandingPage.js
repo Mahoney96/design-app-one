@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class LandingPage extends Component {
     render(){
         return(
-            
+            <div className="grid-main">
             <h1 className="Header-parent"> Main header Container
-                <div className=""> Presentational Container holding the three clickable components.
+                <div className="Header-parent"> Presentational Container holding the three clickable components.
 
                     <a className="Header-child"
                         href="https://www.linkedin.com/"
@@ -32,7 +32,7 @@ class LandingPage extends Component {
 
                 <div className="Landing-page-footer">Footer Presentational Component</div>
             </h1>
-
+            </div>
         );
     }
 };

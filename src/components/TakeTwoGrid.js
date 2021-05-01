@@ -1,9 +1,4 @@
-
 import React, { Component } from 'react';
-
-import logo from './logo.svg';
-import './App.css';
-
 
 class TakeTwoGrid extends Component {
 
@@ -11,15 +6,11 @@ class TakeTwoGrid extends Component {
 
         return(
 
-            <div className="Grid-layout">
+            <div className="Container-Grid">
 
                 <div className="item-a"> Header Section.</div>
-                
-                <br></br>
                 <div className="item-b"> Main Page Section.</div>
-                <br></br>
                 <div className="item-c"> Sidebar Section.</div>
-                <br></br>
                 <div className="item-d">Footer Section.</div>
 
             </div>
@@ -28,3 +19,4 @@ class TakeTwoGrid extends Component {
 };
 
 export default TakeTwoGrid;
+

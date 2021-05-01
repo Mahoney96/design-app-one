@@ -26,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #384144;
 }
 
 @keyframes App-logo-spin {
@@ -41,12 +41,13 @@
 /* START OF DESIGN CODE 4/21/21 */
 
 .Header-parent {
-  background-color: aqua;
+  background-color: rgb(24, 57, 100);
   display: flexbox;
+  font-family: 'Courier New', Courier, monospace;
   flex-direction: row;
   height: 50em;
   width: 100%;
-  border: 3px solid rgb(20, 64, 160);
+  border: 5px solid rgb(212, 194, 30);
 }
 
 .Header-child {
@@ -55,15 +56,130 @@
   justify-content: flex-start;
   height: 6em;
   width: 3em;
-  border: 2px solid teal ;
+  border: 2px solid rgb(23, 104, 23) ;
 }
 
 .Landing-page-footer {
-  background-color: rgb(223, 220, 11);
+  background-color: rgb(235, 213, 16);
   display: flex;
-  height: 20vh;
+  height: 20vh; 
   width: 100%;
-  border: 5px dashed orangered  ;
+  border: 5px dashed rgb(0, 81, 255)  ;
 }
 
 /* END OF DESIGN CODE 4/21/21 */
+/* SRT of GRID DESIGN 4/26/21 */
+
+.grid-layout {
+  background-color: rgb(122, 180, 255);
+  border: 5px dashed rgb(255, 47, 193);
+  padding: 5px;
+  display: inline-grid;
+
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: inherit;
+  height: 100vh;
+  margin: 0;
+
+}
+
+
+.grid-main {
+
+  background-color: rgb(179, 253, 68);
+  border: 3px solid green;
+
+
+  display: grid;
+
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: inherit;
+}
+
+.grid-header {
+  background-color: rgb(248, 179, 191);
+  border: 3px solid rgb(223, 71, 71);
+}
+
+.grid-nav{
+  background-color: rgb(161, 200, 250);
+  border: 3px solid rgb(80, 70, 221);
+}
+
+
+.grid-sec-educator{
+  background-color: rgb(179, 253, 68);
+  border: 3px solid green;
+}
+
+.grid-sec-builder {
+  background-color: rgb(68, 225, 253);
+  border: 3px solid rgba(245, 137, 14, 0.801);
+}
+
+
+.grid-sec-investor {
+  background-color: coral;
+  
+}
+
+.grid-aside-sect {
+  background-color: rgb(255, 147, 255);
+  border: 3px solid purple;
+  
+}
+
+.grid-footer {
+  background-color: 3px solid rgb(255, 242, 62);
+  border: 3px solid rgb(255, 230, 0);
+}
+
+/* END of GRID DESIGN 4/26/21 */
+
+
+/* SRT of DESIGN CODE 4/30/21 */
+
+
+.item-a {
+  grid-area: header;
+  border: 3px solid rgba(245, 137, 14, 0.801);
+  
+
+}
+
+.item-b {
+  grid-area: main;
+  
+  border:  3px solid rgb(68, 225, 253);
+}
+
+.item-c {
+  grid-area: sidebar;
+ 
+  border:  3px solid  rgb(223, 71, 71);
+}
+
+.item-d {
+  grid-area: footer;
+
+  border:  3px solid  rgb(61, 195, 61)
+}
+
+.container-Grid {
+
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-areas: 
+  
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+
+    border: 5px dashed rgb(179, 253, 68);
+
+}
+
+/* END of DESIGN CODE 4/30/21 */
