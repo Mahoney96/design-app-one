@@ -16,10 +16,13 @@ class TakeTwoGrid extends Component {
                 <div className="item-a"> Header Section.</div>
                 
                 <br></br>
+
                 <div className="item-b"> Main Page Section.</div>
                 <br></br>
+
                 <div className="item-c"> Sidebar Section.</div>
                 <br></br>
+                
                 <div className="item-d">Footer Section.</div>
 
             </div>

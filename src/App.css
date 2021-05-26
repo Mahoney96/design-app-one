@@ -181,5 +181,46 @@
     border: 5px dashed rgb(179, 253, 68);
 
 }
-
 /* END of DESIGN CODE 4/30/21 */
+
+
+
+/* SRT of DESIGN CODE 5/1/21 */
+ 
+
+.contact-page-grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-areas: 
+  
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+
+    border: 5px dashed rgb(179, 253, 68);
+
+
+
+}
+
+/* ENDof DESIGN CODE 5/1/21 */
+
+
+/* START OF DESIGN ADDITIONS @ 5/26/21 */
+
+/* START OF DESIGN ADDITIONS @ 5/26/21 */
+
+.Landing-two-google {
+  display: -ms-inline-grid;
+  grid-template-columns: max-content;
+  grid-template-rows: max-content;
+
+  grid-area: 
+  
+  
+  ;
+
+
+  border: 3px solid rgb(250, 212, 0);
+}
